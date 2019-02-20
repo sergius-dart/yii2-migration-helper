@@ -1,0 +1,28 @@
+{
+    "name": "sergius-dart/yii2-migration-helper",
+    "type": "yii2-extension",
+
+    "description": "Simply helper rdbms migrate",
+    "keywords": ["yii2", "migrate", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/sergius-dart/yii2-migration-helper/issues",
+        "source": "https://github.com/sergius-dart/yii2-migration-helper"
+    },
+    "authors": [
+        {
+            "name": "Sergey Turovsky",
+            "email": "sergiusdart@gmail.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "~2.0.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "sergiusdart\\db\\": "src"
+        }
+    }
+}
